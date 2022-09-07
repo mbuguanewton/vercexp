@@ -1,0 +1,23 @@
+{
+    "databases": {
+        "mongodb": {
+            "uri": "mongodb://localhost:27017/todos"
+        }
+    },
+    "port": 4000,
+
+    "jwt": {
+        "jwt_secret": ""
+    },
+    "slack": {
+        "webhook": ""
+    },
+    "logging": {
+        "console": true,
+        "path": "logs"
+    },
+    "cors": {
+        "enabled": true,
+        "origins": ["http://localhost:3000"]
+    }
+}
